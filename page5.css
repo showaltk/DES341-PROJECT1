@@ -1,0 +1,42 @@
+nav /* parent */ {
+  display: flex;
+  height: 150px;
+}
+
+.container {
+  height: auto;
+  margin-top: -40px;
+  margin-left: 24px;
+  margin-right: 24px;
+  position: relative;
+}
+
+.textblock {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  bottom: 30px;
+  background-color: #222222B3;
+  color: #F6F6F6;
+  padding: 36px;
+}
+
+div.textblock h4 {
+  color: #9C3E60;
+}
+
+div.container h2 {
+  color: #9C3E60;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footerright {
+  flex: 50%;
+  text-align: right;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-bottom: 0;
+}

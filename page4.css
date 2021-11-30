@@ -1,0 +1,61 @@
+nav /* parent */ {
+  display: flex;
+  height: 150px;
+}
+
+.container {
+  height: auto;
+  margin-top: -50px;
+  margin-left: 24px;
+  margin-right: 24px;
+  position: relative;
+}
+
+.container2 {
+  height: auto;
+  margin-top: 550px;
+  margin-left: 24px;
+  margin-right: 24px;
+  position: relative;
+}
+
+.parent {
+  display: flex;
+  z-index: -1;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.child1 {
+  flex: 66%;
+  padding-right: 20px;
+}
+
+div.child1 h2 {
+  color: #2D4D69;
+}
+
+.child2 {
+  flex: 34%;
+  position: relative;
+  height: auto;
+}
+
+div.child2 h4 {
+  color: #2D4D69;
+}
+
+.textblock {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  background-color: #222222B3;
+  color: #F6F6F6;
+  padding: 36px;
+}
+
+.footerright {
+  flex: 50%;
+  text-align: right;
+  margin-top: -28px;
+}

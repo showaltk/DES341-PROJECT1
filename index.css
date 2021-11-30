@@ -1,0 +1,68 @@
+/* HOME PAGE */
+logo /* child 1 */ { 
+  flex: 30%;
+  position: absolute;
+}
+
+.navlinks /* child 2 */ {
+  flex: 70%;
+  margin-right: 24px;
+}
+
+.container {
+  position: relative;
+  margin-left: 24px;
+  margin-right: 24px;
+  height: auto;
+  z-index: 2;
+}
+
+.videoContainer
+{
+  margin-top: -220px;
+  margin-bottom: 32px;
+}
+
+div.container h1 {
+  z-index:2;
+}
+
+h2.black {
+  color:#C75A01;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p.twoColumn {
+  width: 66%;
+}
+
+.textblock {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  bottom: 30px;
+  background-color: #222222B3;
+  color: #F6F6F6;
+  padding: 24px;
+}
+
+.arrowContainer {
+  display: block;
+  position: relative;
+  margin-top: 24px;
+  margin-right: 24px;
+  margin-left: 24px;
+  z-index: 2;
+  clear: both;
+}
+
+.arrowToRight {
+  float: right;
+  margin-top: -70px;
+}
+
+.textToRight {
+  text-align: right;
+  margin-top: 3px;
+  clear: both;
+}
